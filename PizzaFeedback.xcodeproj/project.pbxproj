@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C6CF4A17957F3A00C63FEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6CF4917957F3A00C63FEB /* UIKit.framework */; };
+		84C6CF4C17957F3A00C63FEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6CF4B17957F3A00C63FEB /* Foundation.framework */; };
+		84C6CF4E17957F3A00C63FEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6CF4D17957F3A00C63FEB /* CoreGraphics.framework */; };
+		84C6CF5417957F3A00C63FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CF5217957F3A00C63FEB /* InfoPlist.strings */; };
+		84C6CF5617957F3A00C63FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CF5517957F3A00C63FEB /* main.m */; };
+		84C6CF5A17957F3A00C63FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CF5917957F3A00C63FEB /* AppDelegate.m */; };
+		84C6CF5C17957F3A00C63FEB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CF5B17957F3A00C63FEB /* Default.png */; };
+		84C6CF5E17957F3A00C63FEB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CF5D17957F3A00C63FEB /* Default@2x.png */; };
+		84C6CF6017957F3A00C63FEB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CF5F17957F3A00C63FEB /* Default-568h@2x.png */; };
+		84C6CF6317957F3A00C63FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CF6217957F3A00C63FEB /* ViewController.m */; };
+		84C6CF6617957F3B00C63FEB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CF6417957F3B00C63FEB /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C6CF4617957F3A00C63FEB /* PizzaFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6CF4917957F3A00C63FEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C6CF4B17957F3A00C63FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C6CF4D17957F3A00C63FEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C6CF5117957F3A00C63FEB /* PizzaFeedback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PizzaFeedback-Info.plist"; sourceTree = "<group>"; };
+		84C6CF5317957F3A00C63FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C6CF5517957F3A00C63FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C6CF5717957F3A00C63FEB /* PizzaFeedback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaFeedback-Prefix.pch"; sourceTree = "<group>"; };
+		84C6CF5817957F3A00C63FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C6CF5917957F3A00C63FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C6CF5B17957F3A00C63FEB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84C6CF5D17957F3A00C63FEB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84C6CF5F17957F3A00C63FEB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84C6CF6117957F3A00C63FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84C6CF6217957F3A00C63FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84C6CF6517957F3B00C63FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C6CF4317957F3A00C63FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6CF4A17957F3A00C63FEB /* UIKit.framework in Frameworks */,
+				84C6CF4C17957F3A00C63FEB /* Foundation.framework in Frameworks */,
+				84C6CF4E17957F3A00C63FEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C6CF3D17957F3A00C63FEB = {
+			isa = PBXGroup;
+			children = (
+				84C6CF4F17957F3A00C63FEB /* PizzaFeedback */,
+				84C6CF4817957F3A00C63FEB /* Frameworks */,
+				84C6CF4717957F3A00C63FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6CF4717957F3A00C63FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CF4617957F3A00C63FEB /* PizzaFeedback.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6CF4817957F3A00C63FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CF4917957F3A00C63FEB /* UIKit.framework */,
+				84C6CF4B17957F3A00C63FEB /* Foundation.framework */,
+				84C6CF4D17957F3A00C63FEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C6CF4F17957F3A00C63FEB /* PizzaFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CF5817957F3A00C63FEB /* AppDelegate.h */,
+				84C6CF5917957F3A00C63FEB /* AppDelegate.m */,
+				84C6CF6117957F3A00C63FEB /* ViewController.h */,
+				84C6CF6217957F3A00C63FEB /* ViewController.m */,
+				84C6CF6417957F3B00C63FEB /* ViewController.xib */,
+				84C6CF5017957F3A00C63FEB /* Supporting Files */,
+			);
+			path = PizzaFeedback;
+			sourceTree = "<group>";
+		};
+		84C6CF5017957F3A00C63FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CF5117957F3A00C63FEB /* PizzaFeedback-Info.plist */,
+				84C6CF5217957F3A00C63FEB /* InfoPlist.strings */,
+				84C6CF5517957F3A00C63FEB /* main.m */,
+				84C6CF5717957F3A00C63FEB /* PizzaFeedback-Prefix.pch */,
+				84C6CF5B17957F3A00C63FEB /* Default.png */,
+				84C6CF5D17957F3A00C63FEB /* Default@2x.png */,
+				84C6CF5F17957F3A00C63FEB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C6CF4517957F3A00C63FEB /* PizzaFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6CF6917957F3B00C63FEB /* Build configuration list for PBXNativeTarget "PizzaFeedback" */;
+			buildPhases = (
+				84C6CF4217957F3A00C63FEB /* Sources */,
+				84C6CF4317957F3A00C63FEB /* Frameworks */,
+				84C6CF4417957F3A00C63FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaFeedback;
+			productName = PizzaFeedback;
+			productReference = 84C6CF4617957F3A00C63FEB /* PizzaFeedback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C6CF3E17957F3A00C63FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = admin;
+			};
+			buildConfigurationList = 84C6CF4117957F3A00C63FEB /* Build configuration list for PBXProject "PizzaFeedback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C6CF3D17957F3A00C63FEB;
+			productRefGroup = 84C6CF4717957F3A00C63FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6CF4517957F3A00C63FEB /* PizzaFeedback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C6CF4417957F3A00C63FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6CF5417957F3A00C63FEB /* InfoPlist.strings in Resources */,
+				84C6CF5C17957F3A00C63FEB /* Default.png in Resources */,
+				84C6CF5E17957F3A00C63FEB /* Default@2x.png in Resources */,
+				84C6CF6017957F3A00C63FEB /* Default-568h@2x.png in Resources */,
+				84C6CF6617957F3B00C63FEB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C6CF4217957F3A00C63FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6CF5617957F3A00C63FEB /* main.m in Sources */,
+				84C6CF5A17957F3A00C63FEB /* AppDelegate.m in Sources */,
+				84C6CF6317957F3A00C63FEB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C6CF5217957F3A00C63FEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6CF5317957F3A00C63FEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C6CF6417957F3B00C63FEB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6CF6517957F3B00C63FEB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C6CF6717957F3B00C63FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C6CF6817957F3B00C63FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C6CF6A17957F3B00C63FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PizzaFeedback/PizzaFeedback-Prefix.pch";
+				INFOPLIST_FILE = "PizzaFeedback/PizzaFeedback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C6CF6B17957F3B00C63FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PizzaFeedback/PizzaFeedback-Prefix.pch";
+				INFOPLIST_FILE = "PizzaFeedback/PizzaFeedback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C6CF4117957F3A00C63FEB /* Build configuration list for PBXProject "PizzaFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6CF6717957F3B00C63FEB /* Debug */,
+				84C6CF6817957F3B00C63FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6CF6917957F3B00C63FEB /* Build configuration list for PBXNativeTarget "PizzaFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6CF6A17957F3B00C63FEB /* Debug */,
+				84C6CF6B17957F3B00C63FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C6CF3E17957F3A00C63FEB /* Project object */;
+}
